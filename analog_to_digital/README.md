@@ -9,4 +9,8 @@ To install the docker image on raspbian simply docker build -t "repo:tag" -f Doc
 To develop files and run them try
 
 docker run -it -v /home/pi/app/grovepi -v "your_abs_path":/home/pi/app/ "repo:tag" sh (or python3 python file)
+
 https://www.dexterindustries.com/wp-content/uploads/2013/07/grovepi_pinout.png
+
+to run on raspi docker run -it --priviledged raspi sh to get access to gpio cards
+
